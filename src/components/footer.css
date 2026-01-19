@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+html,
+body,
+#root{
+
+    height: 100%;
+
+}
+
+@layer components{
+
+    
+
+    .footerText{
+
+        font-size: medium !important;
+        text-decoration: none !important;
+        color: gray !important;
+        text-align: left !important;
+    }
+
+}

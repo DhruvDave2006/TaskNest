@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+html,
+body,
+#root{
+
+    height: 100%;
+}
+
+@layer components{
+
+    .nav-det{
+
+        text-decoration: none !important;
+        color: aliceblue !important;
+        @apply text-xl font-medium rounded-md px-3 py-2;
+
+    }
+}
+
+@layer theme{
+
+    .account{
+
+        text-decoration: none !important;
+        color: white !important;
+    }
+}
