@@ -117,7 +117,7 @@ function Dashboard() {
           {/* Mapping Stats - These should eventually come from backend count queries */}
           <StatBox label="Pending" count={12} color="red" percent={40} />
           <StatBox label="In Progress" count={18} color="amber" percent={60} />
-          <StatBox label="Completed" count={30} color="emerlad" percent={85} />
+          <StatBox label="Completed" count={30} color="emerald" percent={85} />
         </div>
 
         <div className="bottom">
@@ -194,13 +194,8 @@ function Dashboard() {
 }
 
 // Sub-components for cleaner code
-const StatBox = ({ label, count, color, percent }) => {
-  {
-    const progressLine ={
-      amber: ""
-    }
-  }
-  return (
+const StatBox = ({ label, count, color, percent }) => 
+   (
   <div className="box">
     <p className="text-3xl font-semibold text-gray-600">{label}</p>
     <p className={`text-2xl font-bold text-${color}-400 mt-2`}>{count} Tasks</p>
@@ -212,7 +207,6 @@ const StatBox = ({ label, count, color, percent }) => {
     </div>
   </div>
 );
-};
 
 const TaskRow = ({ name, date, status, color }) => {
 
