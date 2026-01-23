@@ -117,7 +117,7 @@ function Dashboard() {
           {/* Mapping Stats - These should eventually come from backend count queries */}
           <StatBox label="Pending" count={12} color="red" percent={40} />
           <StatBox label="In Progress" count={18} color="amber" percent={60} />
-          <StatBox label="Completed" count={30} color="emerlad" percent={85} />
+          <StatBox label="Completed" count={30} color="emerald" percent={85} />
         </div>
 
         <div className="bottom">
