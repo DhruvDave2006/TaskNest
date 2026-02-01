@@ -63,16 +63,16 @@ function Navbar() {
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-center">
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
-                    <Link aria-current="page" className="nav-det block rounded-md px-3 py-2 text-xl text-gray-300 hover:bg-white/5 hover:text-white" to="Dashboard">
+                    <Link aria-current="page" className="nav-det block rounded-md px-3 py-2 text-xl text-gray-300 hover:bg-white/5 hover:text-white" to="/Dashboard">
                       Dashboard
                     </Link>
-                    <Link className="nav-det block rounded-md px-3 py-2 text-xl text-gray-300 hover:bg-white/5 hover:text-white" to="Projects">
+                    <Link className="nav-det block rounded-md px-3 py-2 text-xl text-gray-300 hover:bg-white/5 hover:text-white" to="/Projects">
                       Projects
                     </Link>
-                    <Link className="nav-det block rounded-md px-3 py-2 text-xl text-gray-300 hover:bg-white/5 hover:text-white" to="Tasks">
+                    <Link className="nav-det block rounded-md px-3 py-2 text-xl text-gray-300 hover:bg-white/5 hover:text-white" to="/Tasks">
                       Tasks
                     </Link>
-                    <Link className="nav-det block rounded-md px-3 py-2 text-xl text-gray-300 hover:bg-white/5 hover:text-white" to="User">
+                    <Link className="nav-det block rounded-md px-3 py-2 text-xl text-gray-300 hover:bg-white/5 hover:text-white" to="/User">
                      User
                     </Link>
                   </div>
@@ -118,19 +118,19 @@ function Navbar() {
                   >
                     <Link
                       className="account block px-4 py-2 text-sm text-gray-300 focus:bg-white/5 focus:outline-hidden"
-                      to="Profile"
+                      to="/Profile"
                     >
                       Your profile
                     </Link>
                     <Link
                       className="account block px-4 py-2 text-sm text-gray-300 focus:bg-white/5 focus:outline-hidden"
-                      to="settings"
+                      to="/Settings"
                     >
                       Settings
                     </Link>
                     <Link
                       className="account block px-4 py-2 text-sm text-gray-300 focus:bg-white/5 focus:outline-hidden"
-                      to="Login"
+                      to="/Login"
                     >
                       Sign out
                     </Link>

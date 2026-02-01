@@ -97,7 +97,7 @@ function Dashboard() {
         </div>
 
         <div className="mt-auto">
-          <div className="p-4 bg-gradient-to-br from-slate-800 to-slate-900 rounded-2xl text-white shadow-xl">
+          <div className="p-4 bg-linear-to-br from-slate-800 to-slate-900 rounded-2xl text-white shadow-xl">
             <div className="flex items-center gap-2 mb-3">
               <span className="flex h-2 w-2 rounded-full bg-green-400 animate-pulse"></span>
               <span className="text-[10px] font-bold opacity-70 uppercase">Active Session</span>
